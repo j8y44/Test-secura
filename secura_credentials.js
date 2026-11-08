@@ -1,8 +1,8 @@
 // Secura secret-detection fixture.
-// Credentials are read from the runtime environment; no values are stored here.
+// Intentionally hardcoded synthetic API key for a failing Secura check.
 // This file makes no network requests and is not used by the application.
 
-const api_key = process.env.API_KEY;
+const api_key = "sk-proj-abcdefghijklmnopqrstuvwxyz123456";
 const password = process.env.PASSWORD;
 const database_password = process.env.DATABASE_PASSWORD;
 const access_token = process.env.ACCESS_TOKEN;
